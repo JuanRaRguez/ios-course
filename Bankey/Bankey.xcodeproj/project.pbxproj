@@ -11,6 +11,7 @@
 		628A88152996D589009F30E6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628A88142996D589009F30E6 /* LoginViewController.swift */; };
 		628A881A2996D59C009F30E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 628A88192996D59C009F30E6 /* Assets.xcassets */; };
 		628A881D2996D59C009F30E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 628A881B2996D59C009F30E6 /* LaunchScreen.storyboard */; };
+		628A88272996FBCA009F30E6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628A88262996FBCA009F30E6 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		628A88192996D59C009F30E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		628A881C2996D59C009F30E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		628A881E2996D59C009F30E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		628A88262996FBCA009F30E6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,7 @@
 		628A880F2996D589009F30E6 /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
-				628A88252996E0A6009F30E6 /* New Group */,
+				628A88252996E0A6009F30E6 /* Login */,
 				628A88242996E05F009F30E6 /* files */,
 				628A88102996D589009F30E6 /* AppDelegate.swift */,
 			);
@@ -69,12 +71,13 @@
 			name = files;
 			sourceTree = "<group>";
 		};
-		628A88252996E0A6009F30E6 /* New Group */ = {
+		628A88252996E0A6009F30E6 /* Login */ = {
 			isa = PBXGroup;
 			children = (
 				628A88142996D589009F30E6 /* LoginViewController.swift */,
+				628A88262996FBCA009F30E6 /* LoginView.swift */,
 			);
-			path = "New Group";
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				628A88272996FBCA009F30E6 /* LoginView.swift in Sources */,
 				628A88152996D589009F30E6 /* LoginViewController.swift in Sources */,
 				628A88112996D589009F30E6 /* AppDelegate.swift in Sources */,
 			);
